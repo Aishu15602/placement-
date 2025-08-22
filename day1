@@ -1,0 +1,70 @@
+1.Problem Statement:
+Print the following output : Let's learn 'JAVA' together with Aishu
+Input Format:
+NA
+Output Format:
+Let's learn 'JAVA' together with Aishu
+
+public class main{
+public static void main(String[] args){
+   System.out.print("Let's learn 'JAVA' together with Aishu");
+}
+}
+
+2.Problem Statement:
+Print the following output : If you want to shine like a "Sun",first burn like a "Sun".
+Input Format:
+NA
+Output Format:
+If you want to shine like a "Sun",first burn like a \"Sun"\".")
+
+public class main{
+public static void main(String [] args){
+   System.out.println("If you want to shine lika a \"Sun|",first burn like a |"Sun");
+}
+}
+
+3.Problem Statement:
+Print the following output : \n ,%%, \
+Input Format:
+NA
+Output Format:
+\n
+
+public class main{
+public static void main(String[] args){
+   System.out.println("\\n");
+}
+}
+
+4.Problem Statement:
+Declare 2 integer variables and initialize their values as 20 and 10
+Input Format:
+NA
+Output Format:
+Print the stored the values as space separated.
+
+public class main{
+public static void main(String[] args){
+   int num1 = 20;
+   int num2 = 10;
+   System.out.println(num1+" "+num2);
+}
+}
+
+5.Problem Statement:
+Accept a character and print the character
+Input Format:
+Accept  a character as a input.
+Output Format:
+Print the Character
+
+import java.util.Scanner;
+public class main{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    char character = input.next().charAt(0);
+     System.out.println(character);
+}
+}
+
