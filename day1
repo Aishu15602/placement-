@@ -121,7 +121,7 @@ public class Main{
 public static void main(String[]args){
 Scanner input = new Scanner(System.in);
 float inputValue = input.nextFloat();
-System.out.printf("%20.4f\n",inputvalue);
+System.out.printf("%20.4f\n",inputValue);
 }
 }
 
@@ -153,8 +153,8 @@ import java.util.Scanner;
 public class Main{
 public static void main(String[]args){
 Scanner input = new Scanner(System.in);
-String input = input.next();
-System.out.println(Integer.decode(input));
+String str = input.next();
+System.out.println(Integer.decode(str));
 }
 }
 
@@ -173,8 +173,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String input = input.next();
-        System.out.println(input.replaceAll("0*$", "").replaceAll("\\.$", ""));
+        String str = input.next();
+        System.out.println(str.replaceAll("0*$", "").replaceAll("\\.$", ""));
     }
 }
 
